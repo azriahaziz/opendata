@@ -1,0 +1,119 @@
+/*--- Default ---*/
+@media (min-width: 1200px) {
+
+}
+
+
+/*--- Small Monitors ---*/
+@media (min-width: 980px) {
+	#services h2{
+		font-size: 26px; line-height: 30px;
+	}
+
+	#services p{
+		font-size: 14px; line-height: 18px; margin-bottom: 20px;
+	}
+}
+
+
+/*--- Tablets ---*/
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	body, *{
+		font-family: "OpenSansRegular";
+		font-family: 13px; line-height: 17px;
+		color:#444;
+	}
+	input, button, select, textarea {
+		font-family: 13px; line-height: 17px;
+	}
+	
+	.the-head{
+		font-size: 40px; line-height: 44px;	margin-bottom: 20px;
+	}
+	
+	.navbar .btn, .navbar .btn-group{
+		margin-top:15px;
+	}
+
+	.nav-collapse .nav li{
+		display: inline-block;
+	}
+
+	#home h1 {
+		font-size: 20px;
+		line-height: 40px;
+	}
+	
+	#home .lead{
+		font-size: 24px; 
+		line-height: 28px;
+	}
+
+}
+
+
+/*--- Cellphones ---*/
+@media (max-width: 767px) {
+	body, *{
+		font-family: 13px; line-height: 17px;
+		color:#444;
+	}
+	input, button, select, textarea {
+		font-family: "OpenSansRegular";
+		font-family: 13px; line-height: 17px;
+	}
+	
+	.navigationMenuItemTd a
+	{
+		
+		font:normal 12px/1.5em Eras_Bold_ITC, Arial, Helvetica, sans-serif;
+		
+	}
+	
+	.the-head{
+		font-size: 40px; line-height: 44px;	margin-bottom: 20px;
+	}
+
+	.navbar{
+		margin-bottom: 10px
+	}
+	.navbar .brand{
+		display: none;
+	}
+
+	.navbar-inner{
+		padding:10px 0px 0px 0px;
+	}
+
+	.navbar .btn, .navbar .btn-group{
+		margin-top:15px; margin-bottom: 10px;
+	}
+	.nav-collapse, .nav-collapse.collapse{
+		margin-right: 10px;
+	}
+	.nav-collapse .nav{
+		margin:0px; padding:0px;
+	}
+	.nav-collapse .nav li{
+		display: inline-block; margin-left:0px;
+	}
+	.navbar .nav>li>a{
+		font-family: "OpenSansRegular";
+	}
+
+	.nav-collapse .nav li a{
+		font-size: 12px; font-weight: normal;
+	}
+
+	#home h1 {
+		font-size: 20px;
+		line-height: 40px;
+	}
+	
+	#home .lead{
+		font-size: 16px; line-height: 24px;
+	}
+
+}
+

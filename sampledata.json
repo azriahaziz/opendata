@@ -1,0 +1,4 @@
+google.visualization.Query.setResponse({"version":"0.6","reqId":0,"status":"ok","sig":"1029305520","table": 
+{ "cols": [{ "id": "", "label": "Time", "type": "number"}, { "id": "", "label": "Cost", "type": "number"}, { "id": "", "label": "Usage", "type": "number"}],
+"rows": [{ "c":[{ "v": 0}, { "v": 0.03}, { "v": 0.861} ]},{ "c":[{ "v": 1}, { "v": 0.01}, { "v": 0.246} ]},{ "c":[{ "v": 2}, { "v": 0.01}, { "v": 0.284}]}]}});
+
